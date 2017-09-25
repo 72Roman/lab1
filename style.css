@@ -1,0 +1,35 @@
+#fon {
+    background-size: 1366px 641px;
+    background-image: url(fantasy_world.jpg);
+    background-repeat: no-repeat;
+    z-index: -1
+}
+
+#description {
+    color: green;
+    font-weight: normal;
+    font-size: 15px;
+    font-style: oblique;
+    font-variant: small-caps
+}
+
+.button {
+    background-color: #DD8108;
+    border: none;
+    color: white;
+    padding: 15px 100px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer
+}
+div.fantasy {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+ body {
+     margin: 0;
+ }
