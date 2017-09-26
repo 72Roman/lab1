@@ -1,19 +1,46 @@
-#fon {
-    background-size: 1366px 641px;
-    background-image: url(fantasy_world.jpg);
-    background-repeat: no-repeat;
-    z-index: -1
+body {
+    margin: 0;
+    background-image: url(images/fon7.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    overflow: auto;  
+    
+}
+ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    background-color: #492A2A;
+    top: 0;
+    width: 30%;
+    
 }
 
-#description {
-    color: green;
-    font-weight: normal;
-    font-size: 15px;
-    font-style: oblique;
-    font-variant: small-caps
+li {
+   margin: auto;
 }
 
-.button {
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: auto;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF5;
+}
+.button1 {
     background-color: #DD8108;
     border: none;
     color: white;
@@ -22,14 +49,31 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 0px 0px;
     cursor: pointer
 }
-div.fantasy {
-    background-color: black;
-    padding: 20px;
+
+
+div.container {
+    width: 100%;
+    margin-top: 45px; 
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    
+    
 }
- body {
-     margin: 0;
- }
+div.item {
+    width: 80%;
+    height: 400px;
+    font-family: courier;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: oblique;
+    font-variant: small-caps; 
+    background: #82BAAB;
+    opacity: 0.6;
+    border-radius: 10%;
+}
