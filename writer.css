@@ -1,4 +1,8 @@
 body {
 	margin: 0;   
-	background-image: url(images/texture.jpg); 
+	background-image: url(images/writerfon.jpeg); 
+	background-size: cover;
+}
+.image {
+	padding: 10px;
 }

@@ -126,29 +126,3 @@ div.item {
     font-style: oblique;
     font-variant: small-caps; 
 }
-
-
-.hide {
-    display: none; 
-}
-.hide + label ~ div{
-    display: none;
-}
-
-.hide + label {
-    border-bottom: 1px dotted green;
-    padding: 0;
-    color: green;
-    cursor: pointer;
-    display: inline-block; 
-}
-
-.hide:checked + label {
-    color: red;
-    border-bottom: 0;
-}
-
-.hide:checked + label + div {
-    display: block; 
-	text-align: center;
-}
